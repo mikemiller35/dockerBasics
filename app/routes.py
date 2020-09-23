@@ -3,7 +3,6 @@ from app import app, api
 
 class Index(Resource):
     def get(self):
-        return {'message': 'Hello world!'}
+        return {'message': 'Hey there Bob!'}
 
 api.add_resource(Index, '/')
-
